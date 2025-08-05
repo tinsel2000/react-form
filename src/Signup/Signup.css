@@ -1,0 +1,18 @@
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset > * {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+fieldset > * > * {
+    display: flex;
+    margin: 5px;
+}
+
