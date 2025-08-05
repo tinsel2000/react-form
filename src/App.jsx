@@ -1,13 +1,9 @@
 import './App.css'
-import {useEffect, useRef } from 'react';
-import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Home/Home.jsx"
 import NavBar from "./NavBar/NavBar.jsx"
 import Signup from "./Signup/Signup.jsx"
 import ErrorPage from "./ErrorPage.jsx"
-import { HashLink } from 'react-router-hash-link';
-
-
 
 function App() {
 

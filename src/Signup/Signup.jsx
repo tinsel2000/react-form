@@ -1,12 +1,7 @@
 import { useState } from 'react'
-import '../App.css'
 import './Signup.css'
 
-
-
-
 function Signup() {
-
   return (
     <>
       <form action="https://httpbin.org/post" method="post">
