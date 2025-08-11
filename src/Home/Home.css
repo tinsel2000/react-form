@@ -52,22 +52,25 @@ a.anchor {
     padding: 10px;
 }
 
-.app-collection > div {
+.app-collection > * {
     user-select: none;
+    color: inherit;
+    text-decoration: none;
+
 }
 
-.app-collection > div:hover {
+.app-collection > *:hover {
     transform: scale(1.01);
     box-shadow: rgba(45, 35, 66, 0.4) 0 1px 1px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
 
 }
 
-.app-collection > div:active {
+.app-collection > *:active {
     box-shadow: #D6D6E7 0 3px 7px inset;
     transform: translateY(2px);
 }
 
-.app-collection div:nth-child(odd) {
+.app-collection *:nth-child(odd) {
   flex: 0 0 calc(100% - 120px);
 }
 
@@ -155,7 +158,7 @@ margin-top: auto;
     .hide-desktop {
         display: none;
     }
-    .app-collection > div {
+    .app-collection > * {
     flex: 1 1 calc(50% - 110px);
     text-align: center;
     max-width: 20%;
@@ -174,7 +177,7 @@ margin-top: auto;
     .hide-mobile {
         display: none;
     }
-    .app-collection > div {
+    .app-collection > * {
     flex: 1 1 calc(100% - 110px);
     text-align: center;
     max-width: 45%;

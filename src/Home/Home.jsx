@@ -89,22 +89,30 @@ function Home() {
         <h3>My Projects</h3>
         <div className="subtitle">A small selection of my works</div>
         <section className="app-collection" id="app-collection">
-          <div className="battleship">
-            <span className="mdi mdi-ferry" />
-            <div className="app-text">Battleship</div>
-          </div>
-          <div className="calculator">
-            <span className="mdi mdi-calculator" />
-            <div className="app-text">Calculator</div>
-          </div>
-          <div className="rockpaperscissors">
-            <span className="mdi mdi-content-cut" />
-            <div className="app-text">Rock Paper Scissors</div>
-          </div>
-          <div className="apis">
-            <span className="mdi mdi-weather-partly-cloudy" />
-            <div className="app-text">Weather</div>
-          </div>
+          <a href="https://tinsel2000.github.io/odin-battleship/">
+            <div className="battleship">
+              <span className="mdi mdi-ferry" />
+              <div className="app-text">Battleship</div>
+            </div>
+          </a>
+          <a href="https://tinsel2000.github.io/odin-calc/">
+            <div className="calculator">
+              <span className="mdi mdi-calculator" />
+              <div className="app-text">Calculator</div>
+            </div>
+          </a>
+          <a href="https://tinsel2000.github.io/RPS-UI/">
+            <div className="rockpaperscissors">
+              <span className="mdi mdi-content-cut" />
+              <div className="app-text">Rock Paper Scissors</div>
+            </div>
+          </a>
+          <a href="https://tinsel2000.github.io/odin-APIs/">
+            <div className="apis">
+              <span className="mdi mdi-weather-partly-cloudy" />
+              <div className="app-text">Weather</div>
+            </div>
+          </a>
         </section>
       </main>
       <footer>
