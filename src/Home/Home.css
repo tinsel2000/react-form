@@ -80,6 +80,7 @@ a.anchor {
 
 .skillset {
     display: grid;
+    justify-content: center;
 }
 
 .skill-wrapper {
@@ -104,7 +105,6 @@ a.anchor {
 
 .skill-wrapper > div {
     text-align: center;
-    min-width: 80px;
 }
 
 footer a {
