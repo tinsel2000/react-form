@@ -12,9 +12,9 @@ function App() {
       <div>
         <NavBar/>
         <Routes>
-          <Route path="/react-form/" element={<Home
+          <Route path="/react-homepage/" element={<Home
           />} />
-          <Route path="/react-form/signup" element={<Signup
+          <Route path="/react-homepage/signup" element={<Signup
 
           />} />
           <Route path="*" element={<ErrorPage />} />
