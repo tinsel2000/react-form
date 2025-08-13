@@ -31,34 +31,34 @@ function NavBar() {
     <header>
           <nav className="navbar">
               <HashLink 
-                to="/react-form/#top" 
+                to="/react-homepage/#top" 
                 scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end', alignToTop: 'true'})}
                 className="navbar-logo"
               >
                 <i className="devicon-apollographql-original colored navbar-logo"/>
               </HashLink>
               <HashLink 
-                to="/react-form/#top" 
+                to="/react-homepage/#top" 
                 scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end', alignToTop: 'true'})}
                 className="hide-mobile nav-button button-30"
               >Home</HashLink>
               <HashLink 
-                to="/react-form/#about"
+                to="/react-homepage/#about"
                 scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end', alignToTop: 'true'})}
                 className="hide-mobile nav-button button-30"
               >About Me</HashLink>
                 <HashLink 
-                to="/react-form/#app-collection"
+                to="/react-homepage/#app-collection"
                 scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'start'})}
                 className="hide-mobile nav-button button-30"
                 >Projects</HashLink>
                 <HashLink 
-                to="/react-form/#contact"
+                to="/react-homepage/#contact"
                 scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'start'})}
                 className="hide-mobile nav-button button-30 nav-button-contact"
                 >Contact Me</HashLink>
               <HashLink 
-                to="/react-form/signup"
+                to="/react-homepage/signup"
                 className="nav-button button-30 nav-button-login"
                 onClick={handleLoginButton}
               >Login/Sign Up</HashLink>
@@ -75,22 +75,22 @@ function NavBar() {
             </nav>
             <div className="navmenu">
               <HashLink 
-                to="/react-form/#top" 
+                to="/react-homepage/#top" 
                 scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end', alignToTop: 'true'})}
                 className="hide-desktop nav-button button-30"
               >Home</HashLink>
               <HashLink 
-                to="/react-form/#about"
+                to="/react-homepage/#about"
                 scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'end', alignToTop: 'true'})}
                 className="hide-desktop nav-button button-30"
               >About Me</HashLink>
                 <HashLink 
-                to="/react-form/#app-collection"
+                to="/react-homepage/#app-collection"
                 scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'start'})}
                 className="hide-desktop nav-button button-30"
                 >Projects</HashLink>
                 <HashLink 
-                to="/react-form/#contact"
+                to="/react-homepage/#contact"
                 scroll={(el) => el.scrollIntoView({ behavior: 'auto', block: 'start'})}
                 className="hide-desktop nav-button button-30 nav-button-contact"
                 >Contact Me</HashLink>
